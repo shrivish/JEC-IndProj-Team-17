@@ -8,7 +8,7 @@
 #include <string.h>
 #include<fstream>
 
-#define Port 8001
+#define Port 8000
 
 using namespace std;
 
@@ -32,6 +32,8 @@ int main()
     clientFile << "Connetced to the server ! You can send message ! " << endl<< endl;
 
     cout << "Connetced to the server ! You can send message ! " << endl<< endl;
+    recv(servSocket,recieve,2048,0);
+    cout<<recieve<<endl;
 
     while (true)
     {

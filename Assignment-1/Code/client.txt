@@ -1,0 +1,4 @@
+Connetced to the server ! You can send message ! 
+
+format(Name:Password:uID)
+Welcome Prabhanshu,from the server
